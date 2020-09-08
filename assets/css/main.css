@@ -1780,12 +1780,16 @@ input, select, textarea {
 
 			.gallery.inactive article.from-left {
 				-webkit-overflow-scrolling:touch !important ;
-				overflow-y:auto;
+				overflow-y:auto;/**/
+				position: relative;/**/
+				overflow: hidden;/**/
+				padding-top: 56.25%;/**/
 				-moz-transform: translateX(-14em);
 				-webkit-transform: translateX(-14em);
 				-ms-transform: translateX(-14em);
 				transform: translateX(-14em);
 			}
+			
 
 			.gallery.inactive article.from-right {
 				-webkit-overflow-scrolling:touch !important ;
