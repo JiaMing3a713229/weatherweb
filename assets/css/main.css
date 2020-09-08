@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
@@ -2248,7 +2249,8 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/NCUT1.jpg");
+		/*background: url("images/overlay.png"), url("../../images/NCUT1.jpg");*/
+		background-color: cornflowerblue;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
