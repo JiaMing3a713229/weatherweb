@@ -1779,7 +1779,7 @@ input, select, textarea {
 
 			.gallery.inactive article.from-left {
 				-webkit-overflow-scrolling:touch !important ;
-				overflow-y:auto !important;
+				overflow-y:auto;
 				-moz-transform: translateX(-14em);
 				-webkit-transform: translateX(-14em);
 				-ms-transform: translateX(-14em);
